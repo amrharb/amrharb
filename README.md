@@ -1,15 +1,25 @@
 # Hi, I'm Amr Harb 👋
 
-Backend software engineer and competitive programmer. I design and build server-side systems: REST APIs, data models, background jobs and the tests around them, with a strong focus on correctness and performance. On the side I set problems for programming contests and coach engineers to pass coding interviews.
+Backend software engineer and competitive programmer. I design and build server-side systems: REST APIs, data models, integrations and the tests around them, with a strong focus on correctness and performance. On the side I set problems for programming contests and coach engineers to pass coding interviews.
 
 ## Backend
 
-- **Languages:** Python, Java, C++, JavaScript
-- **Frameworks:** Django and Django REST Framework, Spring Boot
-- **Data:** SQL (MySQL, MariaDB), MongoDB, SQLite
-- **Practices:** API design, automated testing (Pytest), code review, Git workflows
+I currently work as a backend engineer at a fintech company, on the platform's public API and its financial data integrations:
 
-Selected repos:
+- Designing and consolidating a versioned public REST API, with OpenAPI reference docs and scoped API keys
+- Backward-compatible migrations: new endpoints ship beside the old ones, which are retired only once production logs show no external callers
+- Integrations with bank-account aggregators, crypto exchanges and card providers, including connection flows, webhooks and sync jobs
+- An MCP server that exposes the API as tools for AI agents
+- TypeScript services in a Bun + Turborepo monorepo, Jest test suites against MongoDB, Docker, CI and staging deployments, stacked PRs and code review
+
+**Skills**
+
+- **Languages:** TypeScript, Python, Java, C++, JavaScript
+- **Backend:** Node.js / Bun, REST API design and versioning, webhooks, Django and Django REST Framework, Spring Boot
+- **Data:** MongoDB, SQL (MySQL, MariaDB), SQLite
+- **Practices:** automated testing (Jest, Pytest), Docker, CI/CD, monorepos, code review, Git workflows
+
+**Selected repos**
 
 - [Document-Management-System](https://github.com/amrharb/Document-Management-System): Spring Boot DMS with authentication, workspaces and folders, file storage, tagging and search on MongoDB and MariaDB
 - [Backend-Api](https://github.com/amrharb/Backend-Api): Django backend for a courses platform with users and courses apps

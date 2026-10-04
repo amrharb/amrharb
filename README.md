@@ -9,6 +9,7 @@ I currently work as a backend engineer at a fintech company, on the platform's p
 - Designing and consolidating a versioned public REST API, with OpenAPI reference docs and scoped API keys
 - Backward-compatible migrations: new endpoints ship beside the old ones, which are retired only once production logs show no external callers
 - Integrations with bank-account aggregators, crypto exchanges and card providers, including connection flows, webhooks and sync jobs
+- MongoDB performance: auditing query patterns and index usage, and redesigning the indexes of the core transactions collection (43 → 28) for faster queries and writes
 - An MCP server that exposes the API as tools for AI agents
 - TypeScript services in a Bun + Turborepo monorepo, Jest test suites against MongoDB, Docker, CI and staging deployments, stacked PRs and code review
 
@@ -16,7 +17,7 @@ I currently work as a backend engineer at a fintech company, on the platform's p
 
 - **Languages:** TypeScript, Python, Java, C++, JavaScript
 - **Backend:** Node.js / Bun, REST API design and versioning, webhooks, Django and Django REST Framework, Spring Boot
-- **Data:** MongoDB, SQL (MySQL, MariaDB), SQLite
+- **Data:** MongoDB (schema design, indexing, query optimization), SQL (MySQL, MariaDB), SQLite
 - **Practices:** automated testing (Jest, Pytest), Docker, CI/CD, monorepos, code review, Git workflows
 
 **Selected repos**
